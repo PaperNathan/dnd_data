@@ -59,7 +59,7 @@ const weapon: Weapon = {
       name: "Curse: Hard to Put Down",
       text: "This sword can not leave your hand.  If left unattended for 1d4 days, it will fuse and become your hand.  If it becomes your hand, you have disadvantage on Sleight of Hand checks."
     }
-  ]
+  ],
   name: "Speedy Greatsword",
   page: 149,
   properties: [
