@@ -4,7 +4,8 @@
 // Reference @/documentation/utility.md
 interface Feat {
   name: string,
-  abilityIncrease?: Record<Abilities + "choice", number>,
-  prerequisite: string,
-  source: SourceBooksAbbr
+  abilityIncrease?: Record<Abilities & "choice", number>,
+  prerequisite?: string,
+  source: SourceBooksAbbr,
+  description: Entry[]
 }
